@@ -8,6 +8,7 @@ def dataset_to_db(csv_path, db_path, db_name):
     with sqlite3.connect(db_path) as conn:
         df = pd.read_csv(csv_path, sep=",")
         df.to_sql(db_name, conn, if_exists="replace", index=False)
+
     print(f"¡Tabla {db_name} Creada Correctamente!")
 
 
