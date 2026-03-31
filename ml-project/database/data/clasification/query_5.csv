@@ -1,0 +1,17 @@
+Diagnosis,BMI,Insulin Resistance,cantidad
+No,Normal,No,40438
+No,Normal,Yes,13350
+No,Obese,No,12085
+No,Obese,Yes,3994
+No,Overweight,No,24328
+No,Overweight,Yes,7945
+No,Underweight,No,3922
+No,Underweight,Yes,1343
+Yes,Normal,No,4682
+Yes,Normal,Yes,1610
+Yes,Obese,No,1411
+Yes,Obese,Yes,455
+Yes,Overweight,No,2814
+Yes,Overweight,Yes,951
+Yes,Underweight,No,503
+Yes,Underweight,Yes,169
