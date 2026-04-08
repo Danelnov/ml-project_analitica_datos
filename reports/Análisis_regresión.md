@@ -1,7 +1,7 @@
 # Informe de Laboratorio #3: Analítica de Datos para House Pricing Dataset
 **Asignatura:** Analítica de Datos  
 **Facultad:** Ciencias Exactas y Naturales - Universidad de Antioquia  
-**Estudiantes:** Edwin Daniel Patiño, Xiomara Saldarriaga Duque
+**Estudiantes:** Edwin Daniel Patiño Osorio, Xiomara Saldarriaga Duque
 **Profesor:** Duván Cataño  
 
 
