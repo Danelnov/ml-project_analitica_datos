@@ -1,7 +1,9 @@
 # Informe de Laboratorio #3: Analítica de Datos para House Pricing Dataset
 **Asignatura:** Analítica de Datos  
-**Facultad:** Ciencias Exactas y Naturales - Universidad de Antioquia  
+**Facultad:** Ciencias Exactas y Naturales - Universidad de Antioquia
+
 **Estudiantes:** Edwin Daniel Patiño Osorio, Xiomara Saldarriaga Duque
+
 **Profesor:** Duván Cataño  
 
 
@@ -224,6 +226,7 @@ Es una variable potencialmente muy importante para la predicción del precio de 
 - Se observa acumulación en el valor máximo (~500000).
 
 Muestra un pico en el extremo derecho, sugiriendo un límite superior en la recolección de los datos (datos truncados).
+
 ---
 
 #### Variable categórica: `ocean_proximity`
@@ -330,10 +333,8 @@ En general, se observaron relaciones estadísticamente significativas entre vari
 
 
 - Las variables categóricas deben ser consideradas en el modelado predictivo.
-- Es recomendable aplicar técnicas de codificación (por ejemplo, one-hot encoding).
 - La evidencia estadística respalda la inclusión de `ocean_proximity` como variable explicativa en modelos de predicción.
-- La prueba de Kruskal-Wallis no asume normalidad, lo cual es adecuado dado que varias variables presentan asimetría y outliers.
-- Sin embargo, no indica qué grupos son diferentes entre sí, solo que al menos uno difiere.
+- La prueba de Kruskal-Wallis no asume normalidad, lo cual es adecuado dado que varias variables presentan asimetría y outliers. Sin embargo, no indica qué grupos son diferentes entre sí, solo que al menos uno difiere.
 
 En conjunto, los resultados muestran que existen relaciones significativas entre variables categóricas y numéricas, lo que refuerza la importancia de considerar estas interacciones en el análisis y modelado.
 
