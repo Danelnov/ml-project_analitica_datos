@@ -1,7 +1,9 @@
 # Informe de Laboratorio #3: Analítica de Datos para Diagnóstico de PCOS
 **Asignatura:** Analítica de Datos  
 **Facultad:** Ciencias Exactas y Naturales - Universidad de Antioquia  
-**Estudiantes:** Edwin Daniel Patiño Osorio , Xiomara Saldarriaga Duque
+
+**Estudiantes:** Edwin Daniel Patiño Osorio , Xiomara Saldarriaga Duque 
+
 **Profesor:** Duván Cataño  
 
 ---
@@ -208,11 +210,11 @@ La edad no presenta sesgos marcados, lo que sugiere una distribución balanceada
 
 #### `Lifestyle Score`
 
-- Distribución relativamente uniforme en su rango (1 a 10).
-- No se observan asimetrías pronunciadas.
-- Representación homogénea de distintos estilos de vida.
+- La distribución no es completamente uniforme, presentando una **mayor concentración en los valores altos**, especialmente en torno a 10.  
+- Se observa una **ligera asimetría negativa (sesgo hacia la izquierda)**, debido a la acumulación de datos en el extremo superior del rango.  
+- Los valores bajos están menos representados en comparación con los altos.  
 
-Esto indica que el dataset incluye pacientes con una amplia variedad de hábitos, sin predominio de un grupo específico.
+Esto sugiere que en el dataset predominan individuos con **estilos de vida más saludables o puntuaciones altas**, en lugar de una distribución homogénea entre todos los niveles.
 
 ---
 
@@ -385,7 +387,7 @@ A diferencia de otros conjuntos de datos clínicos o demográficos, se observa u
 **Implicaciones:**
 
 - **Robustez Estadística:** La ausencia de outliers garantiza que las medidas de tendencia central, como la media y la desviación estándar calculadas en el análisis descriptivo, representan fielmente a la población sin sesgos por valores extremos.
-- **Estabilidad del Modelo:** Los modelos de clasificación (como Regresión Logística o SVM) no requerirán técnicas de escalamiento robusto a outliers, ya que no existen puntos que distorsionen la función de pérdida.
+- **Estabilidad del Modelo:** Los modelos de clasificación no requerirán técnicas de escalamiento robusto a outliers, ya que no existen puntos que distorsionen la función de pérdida.
 - **Validez de Pruebas:** Los resultados de la prueba de Kruskal-Wallis obtenidos son altamente confiables, pues no hay registros anómalos que inflen artificialmente la varianza entre los grupos de diagnóstico.
 
 
@@ -435,6 +437,7 @@ A diferencia del dataset de vivienda, en el caso de PCOS se observa una **indepe
 - **Interacciones:** La evidencia estadística sugiere que el modelo predictivo debe capturar la interacción entre el nivel de estrés y los hábitos de vida para mejorar la precisión del diagnóstico.
 
 En conjunto, los resultados muestran que, aunque las variables numéricas están mayormente desacopladas de las categóricas, existen "nodos de influencia" claros en el estilo de vida que deben ser considerados en el modelado final.
+
 ---
 
 ## 7. Conclusiones
